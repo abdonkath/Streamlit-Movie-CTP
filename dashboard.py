@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-#Read the csv
+# Read the csv
 df = pd.read_csv('movie_ratings.csv')
 
 st.set_page_config(layout="wide")
